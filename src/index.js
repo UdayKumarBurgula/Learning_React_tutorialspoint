@@ -1,6 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './components/App';
+
+import ExpenseEntryItem from './components/ExpenseEntryItem'
+
 // import ExpenseEntryItem from './components/ExpenseEntryItem';
 // import ExpenseEntryItemList from './components/ExpenseEntryItemList';
 
@@ -54,9 +57,25 @@ import App from './components/App';
 //    document.getElementById('root'));
 
 // with default props
- ReactDOM.render(<App />,
-    document.getElementById('root'));
+// ReactDOM.render(<App />,
+//    document.getElementById('root'));
 
+
+const name = "Grape Juice"
+const amount = 30.00
+const spendDate = new Date("2020-10-10")
+const category = "Food"
+
+ReactDOM.render(
+   <React.StrictMode>
+      <ExpenseEntryItem
+         name={name}
+         amount={amount}
+         spendDate={spendDate}
+         category={category} />
+   </React.StrictMode>,
+   document.getElementById('root')
+);
 
 
 
