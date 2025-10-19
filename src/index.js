@@ -1,11 +1,12 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import Clock from './components/Clock';
 
+import ExpenseEntryItemList2 from './components/ExpenseEntryItemList2';
 
 // import App from './components/App';
 // import App2 from './components/App2';
 // import App3 from './components/App3';
+// import Clock from './components/Clock';
 
 // import ExpenseEntryItem from './components/ExpenseEntryItem'
 
@@ -93,7 +94,7 @@ ReactDOM.render(<App3 />,
 
 ReactDOM.render(
    <React.StrictMode>
-      <Clock />
+      <ExpenseEntryItemList2 />
    </React.StrictMode>,
    document.getElementById('root')
 );
