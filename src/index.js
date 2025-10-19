@@ -1,9 +1,11 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
+import App3 from './components/App3';
 
-import App2 from './components/App2';
 
 // import App from './components/App';
+// import App2 from './components/App2';
+
 // import ExpenseEntryItem from './components/ExpenseEntryItem'
 
 // import ExpenseEntryItem from './components/ExpenseEntryItem';
@@ -76,9 +78,14 @@ ReactDOM.render(
    </React.StrictMode>,
    document.getElementById('root')
 );
-*/
 
-
+// props
 ReactDOM.render(<App2 />,
     document.getElementById('root'));
 
+*/
+
+
+ReactDOM.render(<App3 />,
+    document.getElementById('root'));
+   
