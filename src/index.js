@@ -1,8 +1,10 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
-import App from './components/App';
+import React from 'react'
+import ReactDOM from 'react-dom'
 
-import ExpenseEntryItem from './components/ExpenseEntryItem'
+import App2 from './components/App2';
+
+// import App from './components/App';
+// import ExpenseEntryItem from './components/ExpenseEntryItem'
 
 // import ExpenseEntryItem from './components/ExpenseEntryItem';
 // import ExpenseEntryItemList from './components/ExpenseEntryItemList';
@@ -60,7 +62,7 @@ import ExpenseEntryItem from './components/ExpenseEntryItem'
 // ReactDOM.render(<App />,
 //    document.getElementById('root'));
 
-
+/*
 const item = {
    id: 1, 
    name : "Grape Juice", 
@@ -74,6 +76,9 @@ ReactDOM.render(
    </React.StrictMode>,
    document.getElementById('root')
 );
+*/
 
 
+ReactDOM.render(<App2 />,
+    document.getElementById('root'));
 
