@@ -17,7 +17,7 @@ class ExpenseEntryItem extends React.Component {
             </div>
             <div><b>Spend Date:</b> 
                <em>
-                  <FormattedDate value={this.props.item.spendDate} />
+                      <FormattedDate value={this.props.item.spendDate.tostring()} />
                </em>
             </div>
             <div><b>Category:</b> 
