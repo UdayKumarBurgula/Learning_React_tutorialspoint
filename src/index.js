@@ -61,22 +61,19 @@ import ExpenseEntryItem from './components/ExpenseEntryItem'
 //    document.getElementById('root'));
 
 
-const name = "Grape Juice"
-const amount = 30.00
-const spendDate = new Date("2020-10-10")
-const category = "Food"
-
+const item = {
+   id: 1, 
+   name : "Grape Juice", 
+   amount : 30.5, 
+   spendDate: new Date("2020-10-10"), 
+   category: "Food" 
+}
 ReactDOM.render(
    <React.StrictMode>
-      <ExpenseEntryItem
-         name={name}
-         amount={amount}
-         spendDate={spendDate}
-         category={category} />
+   <ExpenseEntryItem item={item} />
    </React.StrictMode>,
    document.getElementById('root')
 );
-
 
 
 
