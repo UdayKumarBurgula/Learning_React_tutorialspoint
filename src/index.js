@@ -1,14 +1,14 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-
-import ExpenseEntryItemList2 from './components/ExpenseEntryItemList2';
+import MessageWithEvent from './components/MessageWithEvent'
 
 // import App from './components/App';
 // import App2 from './components/App2';
 // import App3 from './components/App3';
 // import Clock from './components/Clock';
-
 // import ExpenseEntryItem from './components/ExpenseEntryItem'
+// import ExpenseEntryItemList2 from './components/ExpenseEntryItemList2';
+
 
 // import ExpenseEntryItem from './components/ExpenseEntryItem';
 // import ExpenseEntryItemList from './components/ExpenseEntryItemList';
@@ -88,10 +88,6 @@ ReactDOM.render(<App2 />,
 ReactDOM.render(<App3 />,
     document.getElementById('root'));
 
-*/
-
-
-
 ReactDOM.render(
    <React.StrictMode>
       <ExpenseEntryItemList2 />
@@ -106,4 +102,19 @@ setTimeout(() => {
       document.getElementById('root')
    );
 }, 5000);
+
+*/
+
+ReactDOM.render(
+   <React.StrictMode>
+       <div>
+            <MessageWithEvent name="React" />
+            <MessageWithEvent name="React developer" />
+      </div>
+   </React.StrictMode>,
+   document.getElementById('root')
+);
+
+
+
    
