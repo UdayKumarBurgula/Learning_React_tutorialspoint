@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import ExpenseEntryItemListFn from './components/ExpenseEntryItemListFn'
+import ClockUseEffect from './components/ClockUseEffect';
 
 
 // import App from './components/App';
@@ -14,7 +14,7 @@ import ExpenseEntryItemListFn from './components/ExpenseEntryItemListFn'
 // import Clock2 from './components/Clock2';
 // import ExpenseEntryItemList4 from './components/ExpenseEntryItemList4'
 // import HookClock from './components/HookClock';
-
+// import ExpenseEntryItemListFn from './components/ExpenseEntryItemListFn'
 
 // import ExpenseEntryItem from './components/ExpenseEntryItem';
 // import ExpenseEntryItemList from './components/ExpenseEntryItemList';
@@ -175,9 +175,6 @@ ReactDOM.render(
 );
 
 
-*/
-
-
 const items = [
     { id: 1, name: "Pizza", amount: 80, spendDate: "2020-10-10", category: "Food" },
     { id: 2, name: "Grape Juice", amount: 30, spendDate: "2020-10-12", category: "Food" },
@@ -198,4 +195,21 @@ ReactDOM.render(
 );
 
 
+*/
+
+
+ReactDOM.render(
+    <React.StrictMode>
+        <ClockUseEffect />
+    </React.StrictMode>,
+    document.getElementById('root')
+);
+setTimeout(() => {
+    ReactDOM.render(
+        <React.StrictMode>
+            <div><p>Clock is removed from the DOM.</p></div>
+        </React.StrictMode>,
+        document.getElementById('root')
+    );
+}, 5000);
    
