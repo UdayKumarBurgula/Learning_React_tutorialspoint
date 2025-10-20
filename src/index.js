@@ -1,6 +1,6 @@
-import React from 'react'
-import ReactDOM from 'react-dom'
-import ExpenseEntryItemList4 from './components/ExpenseEntryItemList4'
+import React from 'react';
+import ReactDOM from 'react-dom';
+import HookClock from './components/HookClock';
 
 
 // import App from './components/App';
@@ -12,6 +12,8 @@ import ExpenseEntryItemList4 from './components/ExpenseEntryItemList4'
 // import MessageWithEvent from './components/MessageWithEvent'
 // import ExpenseEntryItemList3 from './components/ExpenseEntryItemList3'
 // import Clock2 from './components/Clock2';
+// import ExpenseEntryItemList4 from './components/ExpenseEntryItemList4'
+
 
 // import ExpenseEntryItem from './components/ExpenseEntryItem';
 // import ExpenseEntryItemList from './components/ExpenseEntryItemList';
@@ -145,8 +147,6 @@ ReactDOM.render(
 );
 
 
-*/
-
 const items = [
     { id: 1, name: "Pizza", amount: 80, spendDate: "2020-10-10", category: "Food" },
     { id: 2, name: "Grape Juice", amount: 30, spendDate: "2020-10-12", category: "Food" },
@@ -166,6 +166,16 @@ ReactDOM.render(
     document.getElementById('root')
 );
 
+
+*/
+
+
+ReactDOM.render(
+    <React.StrictMode>
+        <HookClock />
+    </React.StrictMode>,
+    document.getElementById('root')
+);
 
 
    
