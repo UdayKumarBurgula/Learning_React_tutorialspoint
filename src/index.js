@@ -1,6 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import ExpenseEntryItemList3 from './components/ExpenseEntryItemList3'
+import ExpenseEntryItemList4 from './components/ExpenseEntryItemList4'
+
 
 // import App from './components/App';
 // import App2 from './components/App2';
@@ -9,6 +10,8 @@ import ExpenseEntryItemList3 from './components/ExpenseEntryItemList3'
 // import ExpenseEntryItem from './components/ExpenseEntryItem'
 // import ExpenseEntryItemList2 from './components/ExpenseEntryItemList2';
 // import MessageWithEvent from './components/MessageWithEvent'
+// import ExpenseEntryItemList3 from './components/ExpenseEntryItemList3'
+// import Clock2 from './components/Clock2';
 
 // import ExpenseEntryItem from './components/ExpenseEntryItem';
 // import ExpenseEntryItemList from './components/ExpenseEntryItemList';
@@ -114,9 +117,6 @@ ReactDOM.render(
    document.getElementById('root')
 );
 
-*/
-
-
 const items = [
     { id: 1, name: "Pizza", amount: 80, spendDate: "2020-10-10", category: "Food" },
     { id: 2, name: "Grape Juice", amount: 30, spendDate: "2020-10-12", category: "Food" },
@@ -136,6 +136,35 @@ ReactDOM.render(
     document.getElementById('root')
 );
 
+
+ReactDOM.render(
+    <React.StrictMode>
+        <Clock2 />
+    </React.StrictMode>,
+    document.getElementById('root')
+);
+
+
+*/
+
+const items = [
+    { id: 1, name: "Pizza", amount: 80, spendDate: "2020-10-10", category: "Food" },
+    { id: 2, name: "Grape Juice", amount: 30, spendDate: "2020-10-12", category: "Food" },
+    { id: 3, name: "Cinema", amount: 210, spendDate: "2020-10-16", category: "Entertainment" },
+    { id: 4, name: "Java Programming book", amount: 242, spendDate: "2020-10-15", category: "Academic" },
+    { id: 5, name: "Mango Juice", amount: 35, spendDate: "2020-10-16", category: "Food" },
+    { id: 6, name: "Dress", amount: 2000, spendDate: "2020-10-25", category: "Cloth" },
+    { id: 7, name: "Tour", amount: 2555, spendDate: "2020-10-29", category: "Entertainment" },
+    { id: 8, name: "Meals", amount: 300, spendDate: "2020-10-30", category: "Food" },
+    { id: 9, name: "Mobile", amount: 3500, spendDate: "2020-11-02", category: "Gadgets" },
+    { id: 10, name: "Exam Fees", amount: 1245, spendDate: "2020-11-04", category: "Academic" }
+]
+ReactDOM.render(
+    <React.StrictMode>
+        <ExpenseEntryItemList4 items={items} />
+    </React.StrictMode>,
+    document.getElementById('root')
+);
 
 
 
