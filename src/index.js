@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import MessageWithEvent from './components/MessageWithEvent'
+import ExpenseEntryItemList3 from './components/ExpenseEntryItemList3'
 
 // import App from './components/App';
 // import App2 from './components/App2';
@@ -8,7 +8,7 @@ import MessageWithEvent from './components/MessageWithEvent'
 // import Clock from './components/Clock';
 // import ExpenseEntryItem from './components/ExpenseEntryItem'
 // import ExpenseEntryItemList2 from './components/ExpenseEntryItemList2';
-
+// import MessageWithEvent from './components/MessageWithEvent'
 
 // import ExpenseEntryItem from './components/ExpenseEntryItem';
 // import ExpenseEntryItemList from './components/ExpenseEntryItemList';
@@ -21,11 +21,11 @@ import MessageWithEvent from './components/MessageWithEvent'
 // );
 
 // const item = {
-//    id: 1, 
-//    name : "Grape Juice1", 
-//    amount : 31.5, 
-//    spendDate: new Date("2025-10-10"), 
-//    category: "Food2" 
+//    id: 1,
+//    name : "Grape Juice1",
+//    amount : 31.5,
+//    spendDate: new Date("2025-10-10"),
+//    category: "Food2"
 // }
 // ReactDOM.render(
 //    <React.StrictMode>
@@ -57,9 +57,9 @@ import MessageWithEvent from './components/MessageWithEvent'
    //element  root is not there we will get error: Minified React error #200;
 
 // without default props
-// ReactDOM.render(<App headerProp = "Header from props..." 
-//    contentProp = "Content from props..."/>, 
-//    contentProp = "Content from props..."/>, 
+// ReactDOM.render(<App headerProp = "Header from props..."
+//    contentProp = "Content from props..."/>,
+//    contentProp = "Content from props..."/>,
 //    document.getElementById('root'));
 
 // with default props
@@ -103,7 +103,6 @@ setTimeout(() => {
    );
 }, 5000);
 
-*/
 
 ReactDOM.render(
    <React.StrictMode>
@@ -114,6 +113,29 @@ ReactDOM.render(
    </React.StrictMode>,
    document.getElementById('root')
 );
+
+*/
+
+
+const items = [
+    { id: 1, name: "Pizza", amount: 80, spendDate: "2020-10-10", category: "Food" },
+    { id: 2, name: "Grape Juice", amount: 30, spendDate: "2020-10-12", category: "Food" },
+    { id: 3, name: "Cinema", amount: 210, spendDate: "2020-10-16", category: "Entertainment" },
+    { id: 4, name: "Java Programming book", amount: 242, spendDate: "2020-10-15", category: "Academic" },
+    { id: 5, name: "Mango Juice", amount: 35, spendDate: "2020-10-16", category: "Food" },
+    { id: 6, name: "Dress", amount: 2000, spendDate: "2020-10-25", category: "Cloth" },
+    { id: 7, name: "Tour", amount: 2555, spendDate: "2020-10-29", category: "Entertainment" },
+    { id: 8, name: "Meals", amount: 300, spendDate: "2020-10-30", category: "Food" },
+    { id: 9, name: "Mobile", amount: 3500, spendDate: "2020-11-02", category: "Gadgets" },
+    { id: 10, name: "Exam Fees", amount: 1245, spendDate: "2020-11-04", category: "Academic" }
+]
+ReactDOM.render(
+    <React.StrictMode>
+        <ExpenseEntryItemList3 items={items} />
+    </React.StrictMode>,
+    document.getElementById('root')
+);
+
 
 
 
