@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import ClockUseEffect from './components/ClockUseEffect';
+
 
 
 // import App from './components/App';
@@ -15,6 +15,7 @@ import ClockUseEffect from './components/ClockUseEffect';
 // import ExpenseEntryItemList4 from './components/ExpenseEntryItemList4'
 // import HookClock from './components/HookClock';
 // import ExpenseEntryItemListFn from './components/ExpenseEntryItemListFn'
+// import ClockUseEffect from './components/ClockUseEffect';
 
 // import ExpenseEntryItem from './components/ExpenseEntryItem';
 // import ExpenseEntryItemList from './components/ExpenseEntryItemList';
@@ -194,10 +195,6 @@ ReactDOM.render(
     document.getElementById('root')
 );
 
-
-*/
-
-
 ReactDOM.render(
     <React.StrictMode>
         <ClockUseEffect />
@@ -212,4 +209,20 @@ setTimeout(() => {
         document.getElementById('root')
     );
 }, 5000);
-   
+
+
+*/
+
+
+
+
+import RichTextMessage from './components/RichTextMessage';
+
+ReactDOM.render(
+    <React.StrictMode>
+        <RichTextMessage>
+            <h1>Containment is really an excellent feature.</h1>
+        </RichTextMessage>
+    </React.StrictMode>,
+    document.getElementById('root')
+);
