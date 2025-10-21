@@ -1,6 +1,5 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import SimpleForm2 from './components/SimpleForm2.js';
 
 // import App from './components/App';
 // import App2 from './components/App2';
@@ -294,12 +293,29 @@ ReactDOM.render(
     document.getElementById('root')
 );
 
+// simpleForm1
 
 import SimpleForm1 from './components/SimpleForm1.js';
 
 ReactDOM.render(<SimpleForm1 />, document.getElementById('root'));
 
+
+// simpleForm2 : event in child to parent through prop.
+
+import SimpleForm2 from './components/SimpleForm2.js';
+
+ReactDOM.render(<SimpleForm2 />, document.getElementById('root'));
+
+
 */
 
 
-ReactDOM.render(<SimpleForm2 />, document.getElementById('root'));
+
+import ExpenseForm from './components/ExpenseForm';
+
+ReactDOM.render(
+    <React.StrictMode>
+        <ExpenseForm />
+    </React.StrictMode>,
+    document.getElementById('root')
+);
