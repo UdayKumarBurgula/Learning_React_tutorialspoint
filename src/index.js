@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import Welcome2App from './components/Welcome2App';
 
 // import App from './components/App';
 // import App2 from './components/App2';
@@ -329,10 +330,7 @@ ReactDOM.render(
     document.getElementById('root')
 );
 
-*/
-
-
-// fprm using ExpenseFormik
+// form using ExpenseFormik
 
 import ExpenseFormik from './components/ExpenseFormik'
 
@@ -342,3 +340,10 @@ ReactDOM.render(
     </React.StrictMode>,
     document.getElementById('root')
 );
+
+*/
+
+
+ReactDOM.render(<Welcome2App />,
+    document.getElementById('root'));
+
