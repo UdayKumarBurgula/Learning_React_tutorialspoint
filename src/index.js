@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import SimpleForm1 from './components/SimpleForm1.js';
+import SimpleForm2 from './components/SimpleForm2.js';
 
 // import App from './components/App';
 // import App2 from './components/App2';
@@ -295,7 +295,11 @@ ReactDOM.render(
 );
 
 
+import SimpleForm1 from './components/SimpleForm1.js';
+
+ReactDOM.render(<SimpleForm1 />, document.getElementById('root'));
+
 */
 
 
-ReactDOM.render(<SimpleForm1 />, document.getElementById('root'));
+ReactDOM.render(<SimpleForm2 />, document.getElementById('root'));
