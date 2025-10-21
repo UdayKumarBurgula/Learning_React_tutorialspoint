@@ -21,3 +21,5 @@ cd expense-manager-rollup
 npm install --save-dev rollup @rollup/plugin-node-resolve @rollup/plugin-commonjs @rollup/plugin-babel babel-preset-react-app rollup-plugin-terser 
 
 npm install --save react react-dom
+
+npm install --save bootstrap react-bootstrap
