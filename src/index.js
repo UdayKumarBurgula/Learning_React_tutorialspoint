@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import ExpenseEntryItemList5 from './components/ExpenseEntryItemList5'
-
+import App4 from './components/App4';
 
 // import App from './components/App';
 // import App2 from './components/App2';
@@ -19,6 +18,8 @@ import ExpenseEntryItemList5 from './components/ExpenseEntryItemList5'
 
 // import ExpenseEntryItem from './components/ExpenseEntryItem';
 // import ExpenseEntryItemList from './components/ExpenseEntryItemList';
+// import ExpenseEntryItemList5 from './components/ExpenseEntryItemList5';
+
 
 // ReactDOM.render(
 //    <React.StrictMode>
@@ -76,8 +77,7 @@ import ExpenseEntryItemList5 from './components/ExpenseEntryItemList5'
 /*
 const item = {
    id: 1, 
-   name : "Grape Juice", 
-   amount : 30.5, 
+   name : "Grape Juice",    amount : 30.5, 
    spendDate: new Date("2020-10-10"), 
    category: "Food" 
 }
@@ -225,10 +225,6 @@ ReactDOM.render(
 );
 
 
-*/
-
-
-
 const items = [
     { id: 1, name: "Pizza", amount: 80, spendDate: "2020-10-10", category: "Food" },
     { id: 2, name: "Grape Juice", amount: 30, spendDate: "2020-10-12", category: "Food" },
@@ -256,3 +252,10 @@ ReactDOM.render(
     </React.StrictMode>,
     document.getElementById('root')
 );
+
+
+*/
+
+ReactDOM.render(<App4 />,
+    document.getElementById('root'));
+

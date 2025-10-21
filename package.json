@@ -15,9 +15,11 @@
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "bootstrap": "^5.3.8",
     "core-js": "^3.46.0",
     "prop-types": "^15.8.1",
     "react": "^17.0.0",
+    "react-bootstrap": "^2.10.10",
     "react-dom": "^17.0.0",
     "regenerator-runtime": "^0.14.1"
   },

@@ -2,7 +2,7 @@
 
 https://www.tutorialspoint.com/reactjs/index.htm
 
-D:..\Learning_React_tutorialspoint> npm run start
+..\Learning_React_tutorialspoint> npm run start
 
 npm install serve -g
 
