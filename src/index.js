@@ -341,10 +341,16 @@ ReactDOM.render(
     document.getElementById('root')
 );
 
-*/
 
 import Welcome2App from './components/Welcome2App';
 
 ReactDOM.render(<Welcome2App />,
     document.getElementById('root'));
 
+
+*/
+
+import ExpenseListUsingForLoopApp from './components/ExpenseListUsingForLoopApp';
+
+ReactDOM.render(<ExpenseListUsingForLoopApp />,
+    document.getElementById('root'));
