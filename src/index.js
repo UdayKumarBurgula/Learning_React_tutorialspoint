@@ -318,9 +318,7 @@ ReactDOM.render(
     document.getElementById('root')
 );
 
-
-
-*/
+// uncontrolled form using ref
 
 import ExpenseForm2 from './components/ExpenseForm'
 
@@ -331,4 +329,16 @@ ReactDOM.render(
     document.getElementById('root')
 );
 
+*/
 
+
+// fprm using ExpenseFormik
+
+import ExpenseFormik from './components/ExpenseFormik'
+
+ReactDOM.render(
+    <React.StrictMode>
+        <ExpenseFormik />
+    </React.StrictMode>,
+    document.getElementById('root')
+);
