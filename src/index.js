@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import ExpenseEntryItemList6 from './components/ExpenseEntryItemList6';
+import ExpenseEntryItemList7 from './components/ExpenseEntryItemList7';
+
 
 // import App from './components/App';
 // import App2 from './components/App2';
@@ -260,8 +261,8 @@ import App4 from './components/App4';
 ReactDOM.render(<App4 />,
     document.getElementById('root'));
 
-*/
-
+// material ui
+import ExpenseEntryItemList6 from './components/ExpenseEntryItemList6';
 
 const items = [
     { id: 1, name: "Pizza", amount: 80, spendDate: "2020-10-10", category: "Food" },
@@ -283,4 +284,14 @@ ReactDOM.render(
     document.getElementById('root')
 );
 
+*/
+
+// 
+
+ReactDOM.render(
+    <React.StrictMode>
+        <ExpenseEntryItemList7 />
+    </React.StrictMode>,
+    document.getElementById('root')
+);
 
