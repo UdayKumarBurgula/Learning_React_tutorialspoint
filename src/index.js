@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Welcome2App from './components/Welcome2App';
+
 
 // import App from './components/App';
 // import App2 from './components/App2';
@@ -343,6 +343,7 @@ ReactDOM.render(
 
 */
 
+import Welcome2App from './components/Welcome2App';
 
 ReactDOM.render(<Welcome2App />,
     document.getElementById('root'));
