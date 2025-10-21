@@ -307,9 +307,7 @@ import SimpleForm2 from './components/SimpleForm2.js';
 ReactDOM.render(<SimpleForm2 />, document.getElementById('root'));
 
 
-*/
-
-
+// controller form
 
 import ExpenseForm from './components/ExpenseForm';
 
@@ -319,3 +317,18 @@ ReactDOM.render(
     </React.StrictMode>,
     document.getElementById('root')
 );
+
+
+
+*/
+
+import ExpenseForm2 from './components/ExpenseForm'
+
+ReactDOM.render(
+    <React.StrictMode>
+        <ExpenseForm2 />
+    </React.StrictMode>,
+    document.getElementById('root')
+);
+
+
