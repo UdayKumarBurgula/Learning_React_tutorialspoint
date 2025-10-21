@@ -23,3 +23,7 @@ npm install --save-dev rollup @rollup/plugin-node-resolve @rollup/plugin-commonj
 npm install --save react react-dom
 
 npm install --save bootstrap react-bootstrap
+
+npm install @material-ui/core @material-ui/icons --save
+
+
