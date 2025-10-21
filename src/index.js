@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import ExpenseEntryItemList7 from './components/ExpenseEntryItemList7';
-
+import SimpleForm1 from './components/SimpleForm1.js';
 
 // import App from './components/App';
 // import App2 from './components/App2';
@@ -284,9 +283,9 @@ ReactDOM.render(
     document.getElementById('root')
 );
 
-*/
+// fetch API call - integrate with express api
 
-// 
+import ExpenseEntryItemList7 from './components/ExpenseEntryItemList7';
 
 ReactDOM.render(
     <React.StrictMode>
@@ -295,3 +294,8 @@ ReactDOM.render(
     document.getElementById('root')
 );
 
+
+*/
+
+
+ReactDOM.render(<SimpleForm1 />, document.getElementById('root'));
