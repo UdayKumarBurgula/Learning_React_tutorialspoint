@@ -1,9 +1,12 @@
-import React from 'react';
 import './App.css';
-import LoginForm from './LoginForm';
+import React from 'react';
+// import LoginForm from './LoginForm';
+import LoginFormObject from './LoginFormObject';
 function LoginFormApp() {
+    // LoginForm component can be used here
+    // LoginFormObject component can be used here
     return (
-        <LoginForm />
+        <LoginFormObject />
     );
 }
 export default LoginFormApp;
