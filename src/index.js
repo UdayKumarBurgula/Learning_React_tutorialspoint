@@ -348,9 +348,18 @@ ReactDOM.render(<Welcome2App />,
     document.getElementById('root'));
 
 
-*/
-
 import ExpenseListUsingForLoopApp from './components/ExpenseListUsingForLoopApp';
 
 ReactDOM.render(<ExpenseListUsingForLoopApp />,
     document.getElementById('root'));
+
+
+*/
+
+import StateMgmt_SetStateApp from './components/StateMgmt_SetStateApp';
+
+
+ReactDOM.render(<StateMgmt_SetStateApp />,
+    document.getElementById('root'));
+
+
