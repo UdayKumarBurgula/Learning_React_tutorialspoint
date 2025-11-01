@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-
+import Counter from './components/Counter';
 
 // import App from './components/App';
 // import App2 from './components/App2';
@@ -362,12 +362,16 @@ import StateMgmt_SetStateApp from './components/StateMgmt_SetStateApp';
 ReactDOM.render(<StateMgmt_SetStateApp />,
     document.getElementById('root'));
 
+ReactDOM.render(<LoginFormApp />,  
+    document.getElementById('root'));
+
 */
  
 import LoginFormApp from './components/LoginFormApp';
 
-ReactDOM.render(<LoginFormApp />,  
+ReactDOM.render(<Counter />,
     document.getElementById('root'));
+
 
 
 
